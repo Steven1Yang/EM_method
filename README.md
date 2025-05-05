@@ -1,5 +1,3 @@
-
-```markdown
 # 📊 EM Algorithm: Gaussian Mixture Modeling for Height Data
 
 This project implements the **Expectation-Maximization (EM)** algorithm to estimate parameters of a **Gaussian Mixture Model (GMM)** applied to height data. The goal is to model the height distribution as a mixture of two normal distributions, typically representing male and female groups.
@@ -93,8 +91,3 @@ This project is open-source and freely available for academic or educational use
 ---
 
 Feel free to open issues or contribute if you'd like to improve the code or add more features!
-
-```
-
-是否需要我再生成一个中文 `README.zh_CN.md` 来配套英文版？
-```
