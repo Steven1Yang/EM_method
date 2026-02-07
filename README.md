@@ -7,11 +7,10 @@ This project implements the **Expectation-Maximization (EM)** algorithm to estim
 ```
 
 EMAlgorithm/
+├── Data_handler.py             # Main script to run the EM algorithm and plot results
+├── Em_engine.py             # Main script to run the EM algorithm and plot results
 ├── EmAlgorithm.py             # Main script to run the EM algorithm and plot results
 ├── height.xlsx                # Input dataset (height values)
-├── utils/
-│   ├── **init**.py
-│   └── estimationf.py         # Implementation of the EM algorithm
 └── README.md                  # Project documentation
 
 ````
@@ -71,22 +70,11 @@ The Expectation-Maximization algorithm iteratively estimates the parameters of a
 3. **M-Step**: Update the parameters to maximize the expected log-likelihood.
 4. **Repeat** until convergence.
 
-## 📌 Potential Extensions
-
-* Extend to multi-dimensional data or more than two components.
-* Compare with `sklearn.mixture.GaussianMixture`.
-* Add convergence plots or log-likelihood tracking.
-* Add interactive or animated visualizations of the EM process.
-
 ## 💡 Use Cases
 
 * Unsupervised clustering with continuous data
 * Modeling population subgroups in statistics
 * Educational demonstration of the EM algorithm
-
-## 📄 License
-
-This project is open-source and freely available for academic or educational use.
 
 ---
 
